@@ -22,7 +22,7 @@ Filtering this table by the Parent Category “theater” I was able to visualiz
 
 Next, I analyzed the success of the campaigns based on the fundraising goal. To do so, I used the COUNTIF() function to count the number of instances of a successful, failed, or canceled fundraiser within various goal ranges, and in the subcategory of “Plays” which is the subcategory of my friend Louise’s fundraiser.
 
-![Table of Outcomes Based On Goal](Table_Outcomes_Based On_Goal.png)
+![Table of Outcomes Based On Goal](Table_Outcomes_Based_On_Goal.png)
 
 I visualized this data as a percentage of successful, failed, and canceled campaigns so it’s easier to grasp which fundraiser goal ranges are more likely to be successful than not. 
 
