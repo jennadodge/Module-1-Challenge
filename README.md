@@ -10,13 +10,19 @@ The purpose of this analysis is to determine how the success of a kickstarter fu
 
 ### Analysis of Outcomes based on Launch Date
 
-Working with a dataset that includes kickstarter fundraising data over a period of 8 years, I first added columns and refined the data for better analysis, Then, I created a pivot table to summarize fundraiser outcomes based on launch date. Filtering this table by the Parent Category “theater” I was able to visualize campaign outcomes (successful, failed, or canceled) for all Theater fundraisers based on launch date. 
+Working with a dataset that includes kickstarter fundraising data over a period of 8 years, I first added columns and refined the data for better analysis, Then, I created a pivot table to summarize fundraiser outcomes based on launch date. 
+
+![Pivot Table Outcomes Based On Launch Date](Pivot_Table_Outcomes_Based_on_Launch_Date.png)
+
+Filtering this table by the Parent Category “theater” I was able to visualize campaign outcomes (successful, failed, or canceled) for all Theater fundraisers based on launch date. 
 
 ![Outcomes Based on Launch Date](Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
-Next, I analyzed the success of the campaigns based on the fundraising goal. To do so, I used the COUNTIF() function to count the number of instances of a successful, failed, or canceled fundraiser within various goal ranges, and in the subcategory of “Plays” which is the subcategory of my friend Louise’s fundraiser
+Next, I analyzed the success of the campaigns based on the fundraising goal. To do so, I used the COUNTIF() function to count the number of instances of a successful, failed, or canceled fundraiser within various goal ranges, and in the subcategory of “Plays” which is the subcategory of my friend Louise’s fundraiser.
+
+![Table of Outcomes Based On Goal](Table_Outcomes_Based On_Goal.png)
 
 I visualized this data as a percentage of successful, failed, and canceled campaigns so it’s easier to grasp which fundraiser goal ranges are more likely to be successful than not. 
 
